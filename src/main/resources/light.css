@@ -1,0 +1,51 @@
+.root {
+    -fx-background-color: #f8f9fa; /* Fundo branco gelo */
+}
+
+.titulo {
+    -fx-font-size: 52px;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a1b26; /* Texto escuro */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 3); /* Sombra mais fraca */
+}
+
+.subtitulo {
+    -fx-font-size: 16px;
+    -fx-font-family: "JetBrains Mono";
+    -fx-text-fill: #6c757d; /* Cinza médio */
+}
+
+.btn-entrar {
+    -fx-background-color: #3b82f6; /* Azul vibrante padrão */
+    -fx-text-fill: #ffffff; /* Texto branco */
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 12 50 12 50;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.btn-entrar:hover {
+    -fx-background-color: #2563eb; /* Azul mais escuro no hover */
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.btn-sair {
+    -fx-background-color: transparent;
+    -fx-text-fill: #dc3545; /* Vermelho claro */
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: #dc3545;
+    -fx-border-radius: 6px;
+    -fx-padding: 8 25 8 25;
+    -fx-cursor: hand;
+}
+
+.btn-sair:hover {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: #ffffff;
+}

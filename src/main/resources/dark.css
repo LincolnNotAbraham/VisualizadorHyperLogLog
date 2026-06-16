@@ -1,0 +1,30 @@
+.root {
+    -fx-background-color: #1a1b26;
+}
+
+.titulo {
+    -fx-font-size: 52px;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-weight: bold;
+    -fx-text-fill: #c0caf5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 15, 0, 0, 5);
+}
+
+.subtitulo {
+    -fx-font-size: 16px;
+    -fx-font-family: "JetBrains Mono";
+    -fx-text-fill: #565f89;
+}
+
+.btn-entrar {
+    -fx-background-color: #7aa2f7;
+    -fx-text-fill: #1a1b26;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 12 50 12 50;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+/* ... mantenha os :hover como estavam ... */

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="rootPane" prefHeight="600.0" prefWidth="800.0" stylesheets="@dark.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InicialController">
+    <children>
+      <Button fx:id="btnTema" mnemonicParsing="false" onAction="#trocarTema" text="☀️ Light Mode" />
+        <VBox alignment="CENTER" layoutY="48.0" spacing="15.0" AnchorPane.bottomAnchor="-48.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="48.0">
+            <children>
+                <Label styleClass="titulo" text="Visualizador HLL" />
+                <Label styleClass="subtitulo" text="Motor de Estimativa de Cardinalidade" />
+
+                <Label text="" />
+
+                <Button fx:id="btnEntrar" mnemonicParsing="false" onAction="#entrarDashboard" styleClass="btn-entrar" text="ENTRAR" />
+            </children>
+        </VBox>
+
+        <Button fx:id="btnSair" mnemonicParsing="false" onAction="#fecharAplicativo" styleClass="btn-sair" text="Sair" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="25.0" />
+    </children>
+</AnchorPane>
